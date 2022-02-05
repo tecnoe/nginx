@@ -1,0 +1,4 @@
+How to restart nginx the right way.
+Test your config before reloading Nginx, then you can use the following command:
+
+``` sudo nginx -t && sudo service nginx reload ```
